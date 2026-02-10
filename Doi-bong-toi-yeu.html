@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Manchester United – The Red Devils</title>
+
+    <!-- FONT CHỮ (có thể bỏ nếu giáo viên không cho dùng link ngoài) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background-color: #DA291C;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            background-image: url("oldtrafford.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+
+            background-blend-mode: overlay;
+            background-color: rgba(218, 41, 28, 0.7);
+        }
+
+        header h1 {
+            color: #FFD700;
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        header p {
+            color: #FFD700;
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* ===== PHẦN NỘI DUNG ===== */
+        section {
+            padding: 40px 60px;
+            padding-bottom: 8px;
+        }
+
+        h2 {
+            color: #DA291C;
+            margin-bottom: 10px;
+        }
+
+        .intro {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* ===== GALLERY ===== */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 360px; 
+            gap: 20px;
+        }
+
+        .gallery div {
+            background-color: #eee;
+            height: 360px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-style: italic;
+        }
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        /* ===== FORM ===== */
+        form {
+            max-width: 500px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+        }
+
+        button {
+            background-color: #DA291C;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #111;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .logo {
+            width: 520px;      /* kích thước logo */
+            display: block;
+            margin: 0 auto 40px;  /* căn giữa + cách chữ phía dưới */
+        }
+        .box {
+            background-color: #f9f9f9;   /* nền khung */
+            padding: 20px;
+            margin-bottom: 5px;         /* khoảng cách giữa các khung */
+            border-radius: 8px;          /* bo góc nhẹ */
+            border: 2px solid #FFD700; 
+        }
+        .intro-img {
+            width: 100%;        /* chiếm hết chiều rộng khung */
+            display: block;     /* để căn giữa được */
+            margin: 15px auto;  /* căn giữa + tạo khoảng cách */
+        }
+        .video {
+            width: 100%;        /* full chiều rộng khung */
+            height: 350px;      /* chiều cao video */
+            margin-bottom: 20px;
+            border: none;
+        }
+        .img-nho {
+            width: 120px;        /* kích thước hợp lý */
+            height: auto;
+            margin: auto;
+            display: block;
+        }
+        .gallery img.img-nho {
+            width: 50%px;
+            height: auto;
+            object-fit: contain;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <img src="LOGO.jpg" alt="Logo Manchester United" class="logo">
+
+    <h1>MANCHESTER UNITED – THE RED DEVILS</h1>
+    <p>Nơi huyền thoại bắt đầu</p>
+
+</header>
+
+<!-- ===== GIỚI THIỆU ===== -->
+<section>
+    <div class="box">
+        <h2>Trái tim màu đỏ</h2>
+        <p class="intro">
+            Manchester United không chỉ là một câu lạc bộ bóng đá, đó là một biểu tượng của ý chí quật cường và tinh thần không bao giờ bỏ cuộc. Từ thảm họa Munich đau thương đến cú ăn ba thần thánh năm 1999, mỗi chương sử của Quỷ Đỏ đều được viết nên bằng máu, mồ hôi và những cảm xúc vỡ òa của hàng triệu trái tim trên toàn thế giới.
+        </p>
+        <img src="Đội hình hiện tại.jpg" alt="Đội hình MU hiện tại" class="intro-img">
+      
+    </div>
+
+</section>
+
+<!-- ===== CÁC CHUYÊN MỤC ===== -->
+<section>
+    <div class="box">
+        <h2>Những dấu ấn huyền thoại</h2>
+        <ul>
+            <li><a href='https://vi.wikipedia.org/wiki/Alex_Ferguson'><strong>Sir Alex Ferguson:</strong></a> Người cha già vĩ đại đã xây dựng nên đế chế kéo dài 26 năm với 38 danh hiệu lớn nhỏ.</li>
+            <li><strong>Thế hệ vàng 92:</strong> Những cái tên như Beckham, Giggs, Scholes... đã định nghĩa thế nào là lòng trung thành và lối đá tấn công quyến rũ.</li>
+            <li><strong>Những trận lội ngược dòng kinh điển:</strong> : "Fergie Time" – đặc sản của MU, nơi trận đấu chỉ thực sự bắt đầu khi đồng hồ bước sang phút bù giờ.</li>
+        </ul>
+    </div>
+
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section>
+    <div class="box">
+        <h2>Góc hình ảnh</h2>
+        <div class="gallery">
+            <div><img src="Ảnh áo đấu.jpg" class="img-nho" alt="Ảnh Logo CLB"></div>
+            <div><img src="Sân old.jpg" alt="Ảnh sân Old Trafford"></div>
+            <div><img src="Vô địch C1.jpg" alt="Khoảnh khắc vô địch C1"></div>
+            <div> <img src="Ronaldo 2008.jpg" alt="Siêu sao đương đại"></div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===== ÂM NHẠC & VIDEO ===== -->
+<section>
+    <div class="box"> 
+        <h2>Âm nhạc & Video</h2>
+
+        <p><strong>Âm nhạc:</strong> Glory Glory Manchester United</p>
+        <audio src="Glory.mp3" controls></audio>
+
+        <p><strong>1 số video về đội bóng:</strong></p>
+        <ul>
+            <li>
+                <p> Tổng hợp những bàn thắng đẹp nhất lịch sử của Manchester United</p>
+                <a href="https://www.youtube.com/watch?v=YPdjiIuT4Qg">Xem video tại đây</a>
+                </li>
+            <li>
+                <p> Cú ăn ba lịch sử của Manchester United</p>
+                <a href="https://www.youtube.com/watch?v=VSAy5vW19eU">Xem video tại đây</a>
+            </li>
+            <li>
+                <p>Highlight MU gần đây với big 6</p>
+                <video src="Highlight MU.mp4" controls width='50%' height="50%"></video>
+            </li>
+        </ul>
+    </div>
+</section>
+<section>
+    <div class="box">
+        <h2>Góc Nhỏ Fan Quỷ Đỏ: "Tại sao lại là Manchester United?"</h2>
+        <p>
+            Tôi yêu Manchester United không phải vì những danh hiệu hào nhoáng trong quá khứ, mà vì tinh thần<strong>'Never Give Up'</strong> (Không bao giờ bỏ cuộc) đã ngấm vào máu của đội bóng này. Có những lúc Quỷ Đỏ thăng hoa rực rỡ, thống trị cả châu Âu, nhưng cũng có những giai đoạn trầm lắng với đầy rẫy thử thách và hoài nghi. Thế nhưng, chính trong những giây phút khó khăn nhất, khi đội bóng bị dồn vào chân tường, tôi mới thực sự hiểu được giá trị của lòng trung thành.</p>
+        <p>
+            Yêu MU là yêu những đêm thức trắng cùng đội bóng, yêu cảm giác nín thở theo dõi từng đường bóng trên thảm cỏ Old Trafford – nơi được mệnh danh là <strong>'Nhà hát của những giấc mơ'</strong>. Tình yêu đó lớn dần qua những câu chuyện về thế hệ Busby Babes kiên cường sau thảm họa Munich, hay sự vĩ đại của triều đại Sir Alex Ferguson. Tôi yêu cái cách mà đội bóng luôn biết cách đứng dậy từ đống tro tàn, yêu 'đặc sản' <strong>Fergie Time</strong> – những bàn thắng ở phút bù giờ khiến cả cầu trường nổ tung trong cảm xúc vỡ òa.</p>
+        <p>
+            Mỗi khi bài hát truyền thống <strong>'Glory Glory Man United'</strong> vang lên, tôi lại cảm thấy một luồng điện chạy dọc sống lưng. Đó không chỉ là một bài hát, đó là tiếng gọi của niềm tự hào, là sợi dây kết nối hàng triệu trái tim đỏ trên khắp hành tinh. Tôi yêu phong thái hào hoa của các huyền thoại, yêu sự nhiệt huyết của những tài năng trẻ và yêu cả cách mà những chàng trai áo đỏ hiện tại đang chiến đấu để tìm lại ánh hào quang năm nào.</p>
+        <p>
+            Dù đội bóng có trải qua bao nhiêu thăng trầm, dù ngày mai là chiến thắng huy hoàng hay thất bại cay đắng, với tôi, Manchester United vẫn luôn là một phần hơi thở, một tình yêu bất diệt không bao giờ thay đổi. Bởi lẽ, khi bạn đã chọn đứng trong hàng ngũ của những con Quỷ Đỏ, bạn sẽ hiểu rằng: <strong>Once a Red, Always a Red!</strong></p>
+
+    </div>
+</section>
+
+<!-- ===== FORM ===== -->
+<section>
+    <div class="box"> 
+        <h2>Góc bình luận fan hâm mộ</h2>
+        <form onsubmit="guiCamOn(event)">
+            <input type="text" placeholder="Họ và tên">
+            <input type="email" placeholder="Email">
+            <select>
+                <option>Cầu thủ bạn yêu thích</option>
+                <option>Cristiano Ronaldo</option>
+                <option>Bruno Fernandes</option>
+                <option>Khác</option>
+            </select>
+            <textarea rows="4" placeholder="Cảm nhận của bạn"></textarea>
+            <button  id="nutGui">Gửi tình yêu đến Quỷ Đỏ</button>
+        </form>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>Nhóm thực hiện: Ry và Bò</p>
+    <p>Liên hệ: nguyenletuananhkt2008@gmail.com</p>
+    <p>Ngày cập nhật: 08/02/2026</p>
+    <p>Nguồn tham khảo: Trang <a href="https://www.facebook.com/manchesterunited">facebook Manchester</a>, nhaccuatui, wikipedia</p>
+    <p><em>Once a Red, Always a Red.</em></p>
+</footer>
+<script>
+function guiCamOn(event) {
+    event.preventDefault(); // không tải lại trang
+
+    document.getElementById("nutGui").innerText =
+        "Cảm ơn bạn đã gửi tình yêu đến Quỷ Đỏ ❤️";
+
+    document.getElementById("nutGui").disabled = true; // không bấm lại
+}
+</script>
+</body>
+</html>
